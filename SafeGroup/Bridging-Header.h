@@ -9,7 +9,7 @@
 #ifndef Bridging_Header_h
 #define Bridging_Header_h
 
-#import <P2PKit/P2PKit.h>
+//#import <P2PKit/P2PKit.h>
 #import "View/DLForcedGraphView.h"
 #import "View/DLForcedGraphView.m"
 #import "View/DLGraphScene.h"

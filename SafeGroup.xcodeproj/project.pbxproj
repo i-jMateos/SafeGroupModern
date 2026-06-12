@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AD23D15B0992D9E40BD1727 /* Pods_SafeGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F15A3E375BAF8F1C225281 /* Pods_SafeGroup.framework */; };
 		7C2720AD255C524F00ABBFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2720AC255C524F00ABBFE0 /* AppDelegate.swift */; };
 		7C2720B1255C524F00ABBFE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2720B0255C524F00ABBFE0 /* ViewController.swift */; };
 		7C2720B4255C524F00ABBFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2720B2255C524F00ABBFE0 /* Main.storyboard */; };
@@ -35,7 +34,8 @@
 		7CF3D09625642B720070D8AC /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D09525642B720070D8AC /* CreateEventViewController.swift */; };
 		7CF3D0B02566DED10070D8AC /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D0AF2566DED10070D8AC /* Encodable+.swift */; };
 		7CFE62722562BF8000547EE4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE62712562BF8000547EE4 /* RegisterViewController.swift */; };
-		8161CEB268C27AE132CEB897 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		8161CEB268C27AE132CEB897 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		A76DCFB4E2AE3A1841176B3E /* Pods_SafeGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E11601B0DF4CE9023B4B4 /* Pods_SafeGroup.framework */; };
 		CE889147258A11A9005C07A7 /* ParticipantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE889145258A11A9005C07A7 /* ParticipantTableViewCell.swift */; };
 		CE889148258A11A9005C07A7 /* ParticipantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE889146258A11A9005C07A7 /* ParticipantTableViewCell.xib */; };
 		CE88914A258BBB78005C07A7 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE889149258BBB78005C07A7 /* ImageCollectionViewCell.swift */; };
@@ -75,6 +75,7 @@
 		7C2720D2255D3FEE00ABBFE0 /* EventStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStatus.swift; sourceTree = "<group>"; };
 		7C2720D4255D405700ABBFE0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		7C2720D6255D40D900ABBFE0 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		7C5E11601B0DF4CE9023B4B4 /* Pods_SafeGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C67D8F2258CB66F0098CB44 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		7C8142AC255DA86D00E83E8E /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		7C8142AE255EE16600E83E8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -88,8 +89,6 @@
 		7CF3D09525642B720070D8AC /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
 		7CF3D0AF2566DED10070D8AC /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
 		7CFE62712562BF8000547EE4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		C27F53E8BD8A4251C709B4DC /* Pods-SafeGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeGroup.debug.xcconfig"; path = "Target Support Files/Pods-SafeGroup/Pods-SafeGroup.debug.xcconfig"; sourceTree = "<group>"; };
-		C8F15A3E375BAF8F1C225281 /* Pods_SafeGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE889145258A11A9005C07A7 /* ParticipantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantTableViewCell.swift; sourceTree = "<group>"; };
 		CE889146258A11A9005C07A7 /* ParticipantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantTableViewCell.xib; sourceTree = "<group>"; };
 		CE889149258BBB78005C07A7 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -115,7 +114,8 @@
 		CEEDFFD52590DDB700D5ADE5 /* DLForcedGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLForcedGraphView.m; sourceTree = "<group>"; };
 		CEEDFFD62590DDB800D5ADE5 /* DLEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLEdge.m; sourceTree = "<group>"; };
 		CEEDFFD72590DDB900D5ADE5 /* DLGraphScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLGraphScene.m; sourceTree = "<group>"; };
-		FBD63D95B6311F6748FDA76E /* Pods-SafeGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeGroup.release.xcconfig"; path = "Target Support Files/Pods-SafeGroup/Pods-SafeGroup.release.xcconfig"; sourceTree = "<group>"; };
+		D9AEFA2ED6D518859EE8DD66 /* Pods-SafeGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeGroup.release.xcconfig"; path = "Target Support Files/Pods-SafeGroup/Pods-SafeGroup.release.xcconfig"; sourceTree = "<group>"; };
+		DF9299E7D6C8B2303CB6F80A /* Pods-SafeGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeGroup.debug.xcconfig"; path = "Target Support Files/Pods-SafeGroup/Pods-SafeGroup.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 				CE9CAE4B25923A9400135336 /* CFNetwork.framework in Frameworks */,
 				CE9CAE4825923A8D00135336 /* libicucore.tbd in Frameworks */,
 				CE9CAE4625923A8400135336 /* CoreBluetooth.framework in Frameworks */,
-				8161CEB268C27AE132CEB897 /* (null) in Frameworks */,
-				5AD23D15B0992D9E40BD1727 /* Pods_SafeGroup.framework in Frameworks */,
+				8161CEB268C27AE132CEB897 /* BuildFile in Frameworks */,
+				A76DCFB4E2AE3A1841176B3E /* Pods_SafeGroup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 		6779CD755C82718BC4182FA2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C27F53E8BD8A4251C709B4DC /* Pods-SafeGroup.debug.xcconfig */,
-				FBD63D95B6311F6748FDA76E /* Pods-SafeGroup.release.xcconfig */,
+				DF9299E7D6C8B2303CB6F80A /* Pods-SafeGroup.debug.xcconfig */,
+				D9AEFA2ED6D518859EE8DD66 /* Pods-SafeGroup.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 				CE9CAE4A25923A9400135336 /* CFNetwork.framework */,
 				CE9CAE4725923A8D00135336 /* libicucore.tbd */,
 				CE9CAE4525923A8400135336 /* CoreBluetooth.framework */,
-				C8F15A3E375BAF8F1C225281 /* Pods_SafeGroup.framework */,
+				7C5E11601B0DF4CE9023B4B4 /* Pods_SafeGroup.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -294,11 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C2720BD255C525000ABBFE0 /* Build configuration list for PBXNativeTarget "SafeGroup" */;
 			buildPhases = (
-				DB6C23B933CC83EFDA1CC9A7 /* [CP] Check Pods Manifest.lock */,
+				BCCB05B6975AAF23F082F8C6 /* [CP] Check Pods Manifest.lock */,
 				7C2720A5255C524F00ABBFE0 /* Sources */,
 				7C2720A6255C524F00ABBFE0 /* Frameworks */,
 				7C2720A7255C524F00ABBFE0 /* Resources */,
-				9C0A2A430DD3A30531AC64A3 /* [CP] Embed Pods Frameworks */,
+				BAB284AD27C7C5E9E631B9AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,7 +360,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9C0A2A430DD3A30531AC64A3 /* [CP] Embed Pods Frameworks */ = {
+		BAB284AD27C7C5E9E631B9AC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,7 +377,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SafeGroup/Pods-SafeGroup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB6C23B933CC83EFDA1CC9A7 /* [CP] Check Pods Manifest.lock */ = {
+		BCCB05B6975AAF23F082F8C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -584,14 +584,14 @@
 		};
 		7C2720BE255C525000ABBFE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C27F53E8BD8A4251C709B4DC /* Pods-SafeGroup.debug.xcconfig */;
+			baseConfigurationReference = DF9299E7D6C8B2303CB6F80A /* Pods-SafeGroup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JBF767YW9T;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SafeGroup/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -606,14 +606,14 @@
 		};
 		7C2720BF255C525000ABBFE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBD63D95B6311F6748FDA76E /* Pods-SafeGroup.release.xcconfig */;
+			baseConfigurationReference = D9AEFA2ED6D518859EE8DD66 /* Pods-SafeGroup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JBF767YW9T;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SafeGroup/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

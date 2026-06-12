@@ -12,6 +12,44 @@ import ForceDirectedScene
 import CoreBluetooth
 import CoreLocation
 import Firebase
+import FirebaseFirestore
+typealias PPKPeer = MockPeer
+
+struct MockPeer: Equatable {
+    var peerID: String = "mock"
+    var discoveryInfo: Data? = nil
+    var proximityStrength: PPKProximityStrength = .medium
+}
+
+enum PPKProximityStrength: Int {
+    case unknown = 0
+    case extremelyWeak
+    case weak
+    case medium
+    case strong
+    case immediate
+}
+
+enum PPKDiscoveryState {
+    case running
+    case stopped
+}
+
+enum PPKDeliveryStatus {
+    case dispatched
+}
+
+protocol PPKControllerDelegate {}
+
+final class PPKController {
+    static func isEnabled() -> Bool { false }
+    static func enable(withConfiguration: String, observer: AnyObject) {}
+    static func enableProximityRanging() {}
+    static func stopDiscovery() {}
+    static func disable() {}
+    static func startDiscovery(withDiscoveryInfo: Data, stateRestoration: Bool) {}
+    static func sendMessage(_ message: Data, toNearbyPeer peer: PPKPeer, withDeliveryStatusBlock: (PPKDeliveryStatus) -> Void) {}
+}
 
 class ActiveEventViewController: UIViewController {
 
